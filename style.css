@@ -135,6 +135,10 @@
     border: 0;
 }
 
+#contact .contact-card{
+    width: 18rem;
+}
+
 footer{
     background-color: #120B1E;
 }
