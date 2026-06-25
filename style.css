@@ -26,7 +26,7 @@
 
 
 
-#landing-page{
+#landing{
     min-height: 100vh;
     font-family: "JetBrains Mono", monospace;
     font-optical-sizing: auto;
@@ -39,11 +39,11 @@
 
 }
 
-#landing-page > .landing-page > h1,p,button{
+#landing > .landing-page > h1,p,button{
     color: #00FFFF !important;
 }
 
-#landing-page::before{
+#landing::before{
     content: "";
     position: absolute;
     inset: 0;
@@ -51,12 +51,12 @@
     z-index: -1;
 }
 
-#landing-page .image-profile{
+#landing .image-profile{
     background-color: transparent;
 
 }
 
-#project-page{
+#projects{
     border-top: #FF00FF;
     border-style: double;
     font-family: "JetBrains Mono", monospace;
@@ -65,21 +65,25 @@
     background-color: #120B1E;
 }
 
-#project-page h1{
+#projects h1{
     color:#FF00FF
 }
 
-#project-page > h3, p {
+#projects > h3, p {
     color: #FF00FF;
 }
 
-#project-page .card{
+#projects .card{
     background-color: #120B1E;
     border-radius: 10%;
 
 }
 
-#tool-page{
+#projects .project-card{
+    width: 18rem;
+}
+
+#tool{
     border-top: #FF00FF;
     border-style: double;
     font-family: "JetBrains Mono", monospace;
@@ -88,20 +92,20 @@
     background-color: #120B1E;
 }
 
-#tool-page h1 , h3, .card-title{
+#tool h1 , h3, .card-title{
     color:#FF00FF
 }
 
-#tool-page .table-tool{
+#tool .table-tool{
      color:#FF00FF
 }
 
-#tool-page .card , .list-group{
+#tool .card , .list-group{
     background-color: #120B1E;
     color:#FF00FF;
 }
 
-#contact-page{
+#contact{
     border-top: #FF00FF;
     border-style: double;
     font-family: "JetBrains Mono", monospace;
@@ -111,16 +115,20 @@
     background-color: #120B1E;
 }
 
-#contact-page .card-title {
+#contact .card-title {
     color: #FF00FF;
 }
-#contact-page .card-body{
+#contact .card-body{
     background-color: #120B1E;
 }
 
-#contact-page .card-1{
+#contact .card-1{
     width: 0%;
     border-style: none;
+}
+
+#contact .map-frame {
+    border: 0;
 }
 
 footer{
