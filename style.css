@@ -83,7 +83,7 @@
     width: 18rem;
 }
 
-#tool{
+#tools{
     border-top: #FF00FF;
     border-style: double;
     font-family: "JetBrains Mono", monospace;
@@ -92,17 +92,21 @@
     background-color: #120B1E;
 }
 
-#tool h1 , h3, .card-title{
+#tools h1 , h3, .card-title{
     color:#FF00FF
 }
 
-#tool .table-tool{
+#tools .table-tool{
      color:#FF00FF
 }
 
-#tool .card , .list-group{
+#tools .card , .list-group{
     background-color: #120B1E;
     color:#FF00FF;
+}
+
+#tools .tool-card{
+    width: 18rem;
 }
 
 #contact{
